@@ -9,10 +9,10 @@ import * as C from './components/exportIndex';
 import 'bulma/css/bulma.css'
 //routes
 import { Router } from 'react-router-dom';
-import { GeneralRouting } from './routing/Routing'
+import { GeneralRouting } from './routing/GeneralRouting'
 
 
-
+//main
 function App() {
   return (
     <>
