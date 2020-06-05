@@ -1,25 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
+//CSS general
 import './App.css';
+//pages
+//import * as P from './pages/exportIndex';
+//components
+import * as C from './components/exportIndex';
+//CSS library
+import 'bulma/css/bulma.css'
+//routes
+import { Router } from 'react-router-dom';
+import { GeneralRouting } from './routing/Routing'
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <C.Header />
+    <GeneralRouting />
+    <C.Footer />
+    </>
   );
 }
 
