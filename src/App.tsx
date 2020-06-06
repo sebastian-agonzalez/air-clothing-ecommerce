@@ -7,6 +7,9 @@ import './App.css';
 import * as C from './components/exportIndex';
 //CSS library
 import 'bulma/css/bulma.css'
+import 'bootstrap/dist/css/bootstrap.css';
+
+
 //routes
 import { Router } from 'react-router-dom';
 import { GeneralRouting } from './routing/GeneralRouting'

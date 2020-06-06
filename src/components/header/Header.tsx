@@ -1,13 +1,18 @@
 import * as React from 'react';
-//sdfsdfsdf
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { Link } from 'react-router-dom';
+
+
+
 export const Header = () => {
     return (
         <>
-            <nav className="navbar is-light" role="navigation" aria-label="main navigation">
+            <nav className="navbar" role="navigation" aria-label="main navigation">
+
                 <div className="navbar-brand">
-                    <a className="navbar-item" href="https://bulma.io">
-                        <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28" />
-                    </a>
+                    <Link to='/'>
+                        <img alt='logo' src="/airclothinglogo.png" width="300" height="auto" />
+                    </Link>
 
                     <a role="button" className="navbar-burger burger"
                         aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -19,17 +24,54 @@ export const Header = () => {
 
                 <div id="navbarBasicExample" className="navbar-menu">
                     <div className="navbar-start">
-                        <a className="navbar-item">
-                            Home
-                        </a>
 
-                        <a className="navbar-item">
-                            Documentation
-                        </a>
+                        <div className="navbar-item has-dropdown is-hoverable is-right is-arrowless">
+                            <a className="navbar-link is-arrowless">
+                                WOMEN
+                            </a>
+                            <div className="navbar-dropdown">
+                                <a className="navbar-item">
+                                    skirts
+                            </a>
+                                <a className="navbar-item">
+                                    tops
+                            </a>
+                                <a className="navbar-item">
+                                    trousers
+                            </a>
+                                <a className="navbar-item">
+                                    dresses
+                            </a>
+                            </div>
+                        </div>
 
                         <div className="navbar-item has-dropdown is-hoverable">
+                            <a className="navbar-link is-arrowless">
+                                WOMEN
+                            </a>
+                            <div className="navbar-dropdown">
+                                <a className="navbar-item">
+                                    skirts
+                            </a>
+                                <a className="navbar-item">
+                                    tops
+                            </a>
+                                <a className="navbar-item">
+                                    trousers
+                            </a>
+                                <a className="navbar-item">
+                                    dresses
+                            </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div className="navbar-end">
+                        <div className="navbar-item has-dropdown is-hoverable">
                             <a className="navbar-link">
-                                More
+                                {/* <FontAwesomeIcon icon="coffee" />  
+                                <i className="fas fa-plus"></i>                          */}
                             </a>
 
                             <div className="navbar-dropdown">
@@ -44,13 +86,10 @@ export const Header = () => {
                             </a>
                                 <hr className="navbar-divider" />
                                 <a className="navbar-item">
-                                    Report an issue
+                                    FAQs
                             </a>
                             </div>
                         </div>
-                    </div>
-
-                    <div className="navbar-end">
                         <div className="navbar-item">
                             <div className="buttons">
                                 <a className="button is-primary">
