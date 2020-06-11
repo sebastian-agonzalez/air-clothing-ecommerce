@@ -1,0 +1,14 @@
+//main-color
+$pastel-blue: rgba(220, 239, 255, 0.781);
+
+.first-nav {
+    height: 2rem;
+    background-color: $pastel-blue !important;
+    vertical-align: middle;
+}
+
+.is-blue-custom {
+    color: gray;
+    border: $pastel-blue !important;
+    background-color:  $pastel-blue !important;
+}

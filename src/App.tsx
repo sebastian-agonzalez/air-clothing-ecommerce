@@ -1,6 +1,6 @@
 import React from 'react';
 //CSS general
-import './App.css';
+import './App.scss';
 //pages
 //import * as P from './pages/exportIndex';
 //components
@@ -11,9 +11,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 
 //routes
-import { Router } from 'react-router-dom';
-import { GeneralRouting } from './routing/GeneralRouting'
-
+import { GeneralRouting } from './routing/GeneralRouting';
 
 //main
 function App() {

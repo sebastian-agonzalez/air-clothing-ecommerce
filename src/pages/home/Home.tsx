@@ -1,10 +1,13 @@
 import * as React from 'react';
 
+import { ImgShowcase } from '../../components/exportIndex';
 
+//function component that renders Home 
 export const Home = () => {
     return (
-        <div style={{ height: '500px'}}>
-            <h2>Home funciona</h2>
+        <div style={{ minHeight: '500px'}}>
+            <div style={{height: '5rem'}}></div>
+            <ImgShowcase />
         </div>
     )
 }

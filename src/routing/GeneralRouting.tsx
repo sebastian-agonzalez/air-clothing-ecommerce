@@ -4,7 +4,7 @@ import { Switch, Route } from 'react-router-dom';
 //pages
 import * as P from '../pages/exportIndex';
 
-
+//declaration of routes
 export const GeneralRouting = () => {
     return(
             <Switch>

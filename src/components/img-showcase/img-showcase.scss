@@ -1,0 +1,18 @@
+/* .img-showcase-max-height {
+    height: 100px !important;
+} */
+
+.img-showcase-max-width {
+    width: 50px !important;
+}
+
+.faded-borders {
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom right, red, rgba(148, 228, 248, 0));
+  
+}
+
+.shadow:before
+{
+    box-shadow: 25px 25px 50px 0 white inset, -25px -25px 50px 0 white inset; 
+}
