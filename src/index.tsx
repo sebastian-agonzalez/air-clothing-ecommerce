@@ -7,12 +7,19 @@ import * as serviceWorker from './serviceWorker';
 
 //router
 import { BrowserRouter } from 'react-router-dom';
+//store and provider
+import { Provider } from 'react-redux';
+import { Store } from './store/store';
+
+
 
 //app render
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-    <App />
+      <Provider store={Store}>
+        <App />
+      </Provider>
     </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')

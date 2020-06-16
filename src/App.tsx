@@ -17,9 +17,11 @@ import { GeneralRouting } from './routing/GeneralRouting';
 function App() {
   return (
     <>
-    <C.Header />
-    <GeneralRouting />
-    <C.Footer />
+      <C.Header />
+      <div style={{ minHeight: '500px'}}>
+        <GeneralRouting />
+      </div>
+      <C.Footer />
     </>
   );
 }

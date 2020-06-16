@@ -27,60 +27,60 @@ export const Header = () => {
                         <img alt='logo' src="/airclothinglogo.png" width="300" height="auto" />
                     </Link>
 
-                    <a role="button" className="navbar-burger burger"
+                    <span role="button" className="navbar-burger burger"
                         aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
                         <span aria-hidden="true"></span>
                         <span aria-hidden="true"></span>
                         <span aria-hidden="true"></span>
-                    </a>
+                    </span>
                 </div>
 
                 <div id="navbarBasicExample" className="navbar-menu">
                     <div className="navbar-start">
 
                         <div className="navbar-item" style={{visibility: 'hidden', width: '20rem'}}>
-                            <a className="navbar-link">
+                            <span className="navbar-link">
                                 filler
-                            </a>
+                            </span>
                         </div>
          
                         <div className="navbar-item has-dropdown is-hoverable">
-                            <a className="navbar-link is-arrowless">
+                            <span className="navbar-link is-arrowless">
                                 MEN
-                            </a>
+                            </span>
                             <div className="navbar-dropdown is-right">
-                                <a className="navbar-item">
+                                <span className="navbar-item">
                                     skirts
-                            </a>
-                                <a className="navbar-item">
+                            </span>
+                                <span className="navbar-item">
                                     tops
-                            </a>
-                                <a className="navbar-item">
+                            </span>
+                                <span className="navbar-item">
                                     trousers
-                            </a>
-                                <a className="navbar-item">
+                            </span>
+                                <span className="navbar-item">
                                     dresses
-                            </a>
+                            </span>
                             </div>
                         </div>
 
                         <div className="navbar-item has-dropdown is-hoverable">
-                            <a className="navbar-link is-arrowless">
+                            <span className="navbar-link is-arrowless">
                                 WOMEN
-                            </a>
+                            </span>
                             <div className="navbar-dropdown">
-                                <a className="navbar-item">
+                                <span className="navbar-item">
                                     skirts
-                            </a>
-                                <a className="navbar-item">
+                            </span>
+                                <span className="navbar-item">
                                     tops
-                            </a>
-                                <a className="navbar-item">
+                            </span>
+                                <span className="navbar-item">
                                     trousers
-                            </a>
-                                <a className="navbar-item">
+                            </span>
+                                <span className="navbar-item">
                                     dresses
-                            </a>
+                            </span>
                             </div>
                         </div>
 
@@ -88,34 +88,34 @@ export const Header = () => {
 
                     <div className="navbar-end">
                         <div className="navbar-item has-dropdown is-hoverable">
-                            <a className="navbar-link is-arrowless">
+                            <span className="navbar-link is-arrowless">
                                 <FontAwesomeIcon icon={faPlus} />
-                            </a>
+                            </span>
 
                             <div className="navbar-dropdown is-right">
-                                <a className="navbar-item">
+                                <span className="navbar-item">
                                     About Air Clothing.®
-                            </a>
-                                <a className="navbar-item">
+                            </span>
+                                <span className="navbar-item">
                                     Work with us!
-                            </a>
-                                <a className="navbar-item">
+                            </span>
+                                <span className="navbar-item">
                                     Contact
-                            </a>
+                            </span>
                                 <hr className="navbar-divider" />
-                                <a className="navbar-item">
+                                <span className="navbar-item">
                                     FAQs
-                            </a>
+                            </span>
                             </div>
                         </div>
                         <div className="navbar-item">
                             <div className="buttons">
-                                <a className="button is-blue-custom">
+                                <span className="button is-blue-custom">
                                     <strong>Sign up</strong>
-                                </a>
-                                <a className="button is-light">
+                                </span>
+                                <span className="button is-light">
                                     Log in
-                            </a>
+                            </span>
                             </div>
                         </div>
                     </div>
